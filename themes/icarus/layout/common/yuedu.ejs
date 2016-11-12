@@ -6,11 +6,13 @@ function pr() {
         document.getElementById('sidebar').style.display = "none";
         document.getElementById('profile').style.width = "21%";
         document.getElementById("main").style.width = "75%";
+        document.getElementById('myTop').style.display = "inline";
         R.className="sidebarH"
     } else {
         document.getElementById('sidebar').style.display = "inline";
         document.getElementById("main").style.width = "52.307692307692314%";
         R.className = "sidebar";
+        document.getElementById('myTop').style.display = "none";
         
     }
 }
