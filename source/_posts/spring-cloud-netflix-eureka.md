@@ -5,7 +5,7 @@ date:       2016-10-23 14:00:00 +0800
 summary:   Eureka是Netflix开源的一款提供服务注册和发现的产品，本文主要介绍了Eureka的实现细节。
 toc: true
 categories:
-- Spring Cloud Netflix
+- Spring Cloud Eureka
 tags:
 - Spring Cloud Netflix
 - Eureka

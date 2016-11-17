@@ -8,6 +8,7 @@ categories:
 - Spring Cloud Eureka
 tags:
 - Spring Cloud Eureka
+- Spring Cloud 源码分析
 ---
 **摘要**:在这篇文章中主要介绍一下Spring Cloud中的@EnableEurekaClient注解，从源码的角度分析是如何work的，让大家能了解Spring Cloud如何通过@EnableEurekaClient注解对NetFlix Eureka Client进行封装为它所用。
 ## NetFlix Eureka client简介
@@ -19,6 +20,7 @@ tags:
  Eureka client与Spring Cloud Eureka Client类图，如下所示:
 ![类关系图](/images/spring-cloud-netflix/eureka/anoation/class.png)
 在上图中，我加了前缀，带有`S`的是Spring Cloud封装的，带有`N`是NetFlix原生的。
+<!--more-->
 1. org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient中`49`行的eurekaClient就是com.netflix.discovery.EurekaClient，代码如下所示:
 ```java
 @RequiredArgsConstructor
@@ -39,7 +41,7 @@ public interface EurekaClient extends LookupService {
   //其余省略
 }
 ```
-<!--more-->
+
 3. com.netflix.discovery.DiscoveryClient是netflix使用的客户端，从其class的注释可以看到他主要做这几件事情：
 a) Registering the instance with Eureka Server
 b) Renewalof the lease with Eureka Server
