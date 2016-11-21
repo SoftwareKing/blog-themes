@@ -14,7 +14,7 @@ tags:
 ## 概述
  ### 名词解释
  1. Renew:我的理解是续约，为什么叫续约呢？
-   Renew（服务续约）操作由Service Provider`定期调用`，类似于heartbeat。目的是隔一段时间Service Provider调用接口，告诉Eureka Server它还活着没挂，不要把它提了。通俗的说就是它们两之间的心跳检测，避免服务提供者被剔除掉。
+   Renew（服务续约）操作由Service Provider`定期调用`，类似于heartbeat。目的是隔一段时间Service Provider调用接口，告诉Eureka Server它还活着没挂，不要把它踢掉。通俗的说就是它们两之间的心跳检测，避免服务提供者被剔除掉。
  2. Cancel（服务下线）
    一般在Service Provider`挂了`或`shut down`的时候调用，用来把自身的服务从Eureka Server中`删除`，以防客户端调用到不存在的服务。
  3. Fetch Registries(获取注册信息)，
