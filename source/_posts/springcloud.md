@@ -2,7 +2,7 @@
 layout:     post
 title:      关于SpringCloud中国社区以及国内使用情况
 date:       2016-10-03 14:00:00 +0800
-summary:    Spring Cloud Eureka工作原理分析
+summary:    
 toc: true
 categories:
 - Spring Cloud 
@@ -15,7 +15,7 @@ tags:
 
 ## 为什么要发起Spring Cloud中国社区
  Spring Cloud发展到2016年，国内关注的人越来越多，但是相应学习交流的平台和材料比较分散，不利于学习交流，因此Spring Cloud中国社区应运而生。
-　于是Spring Cloud中国社区由许进联合翟永超，甘明，周立发起Spring cloud中国社区，是国内首个Spring Cloud构建微服务架构的交流社区。我们致力于为Spring Boot或Spring Cloud技术人员提供分享和交流的平台，推动Spring Cloud在中国的普及和应用。 欢迎CTO、架构师、开发者等，在这里学习与交流使用Spring Cloud的实战经验。 目前QQ群人数:1700+,微信群:400+
+　于是Spring Cloud中国社区由许进联合翟永超，甘明，周立发起Spring cloud中国社区，是国内首个Spring Cloud构建微服务架构的交流社区。我们致力于为Spring Boot或Spring Cloud技术人员提供分享和交流的平台，推动Spring Cloud在中国的普及和应用。 欢迎CTO、架构师、开发者等，在这里学习与交流使用Spring Cloud的实战经验。 目前QQ群人数:2000+,微信群:500+
  Spring Cloud中国社区精英群：415028731
  Spring cloud中国社区QQ群：470962790 
  Spring Cloud中国社区官网:http://springcloud.cn
@@ -43,9 +43,13 @@ tags:
   13. 深圳摩令技术科技有限公司
   14. 广州万表网
   15. 视觉中国
-  16. 爱油科技(大连)有限公司 
+  16. 上海秦苍信息科技有限公司-买单侠
+  17. 爱油科技(大连)有限公司 
      [爱油科技基于SpringCloud的微服务实践](http://blog.xujin.org/2016/11/22/sc-fx1/)
  数据在统计之中，会一直持续更新，敬请期待！
 
 ## 捐赠社区发展
+### 捐赠社区
    如果你觉得，Spring Cloud中国社区还可以，为了更好的发展，你可以捐赠社区，点击下面的打赏捐赠，捐赠的钱将用于社区发展和线下meeting up。
+### 捐赠详细
+   周立 1000RMB
